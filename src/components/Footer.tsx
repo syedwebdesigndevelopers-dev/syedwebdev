@@ -66,11 +66,11 @@ export const Footer = () => {
             <div className="space-y-3">
               <motion.a 
                 whileHover={{ x: 5 }}
-                href="mailto:contact@syedweb.com" 
+                href="mailto:syedwebdesigndevelopers@gmail.com" 
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                contact@syedweb.com
+                syedwebdesigndevelopers@gmail.com
               </motion.a>
               <motion.a 
                 whileHover={{ x: 5 }}
@@ -78,7 +78,7 @@ export const Footer = () => {
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +1 (234) 567-890
+                +91 (63022 63011)
               </motion.a>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4" />

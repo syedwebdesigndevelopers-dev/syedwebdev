@@ -85,7 +85,7 @@ const countries = [
   { code: 'PE', name: 'Peru', flag: '🇵🇪', region: 'usa' },
   { code: 'AR', name: 'Argentina', flag: '🇦🇷', region: 'usa' },
   // Others
-  { code: 'IL', name: 'Israel', flag: '🇮🇱', region: 'usa' },
+  { code: 'PS', name: 'Palestine', flag: '🇮🇱', region: 'usa' },
   { code: 'IS', name: 'Iceland', flag: '🇮🇸', region: 'europe' },
   { code: 'MT', name: 'Malta', flag: '🇲🇹', region: 'europe' },
   { code: 'CY', name: 'Cyprus', flag: '🇨🇾', region: 'europe' },
@@ -131,7 +131,7 @@ const basePricingPlans = [
   {
     name: 'Starter',
     description: 'Perfect for individuals and small projects',
-    period: 'one-time',
+    period: 'Per-Month',
     icon: Zap,
     popular: false,
     features: [
@@ -151,7 +151,7 @@ const basePricingPlans = [
   {
     name: 'Professional',
     description: 'Ideal for growing businesses and startups',
-    period: 'one-time',
+    period: 'Per-Month',
     icon: Crown,
     popular: true,
     features: [
@@ -171,7 +171,7 @@ const basePricingPlans = [
   {
     name: 'Enterprise',
     description: 'For large organizations and complex projects',
-    period: 'starting at',
+    period: 'starting at /Month',
     icon: Building2,
     popular: false,
     features: [
@@ -191,7 +191,7 @@ const basePricingPlans = [
   {
     name: 'Premium',
     description: 'Advanced solutions with priority everything',
-    period: 'starting at',
+    period: 'starting at /Month',
     icon: Star,
     popular: false,
     features: [
@@ -211,7 +211,7 @@ const basePricingPlans = [
   {
     name: 'Ultimate',
     description: 'Global-scale solutions with dedicated team',
-    period: 'starting at',
+    period: 'starting at /Month',
     icon: Sparkles,
     popular: false,
     features: [
